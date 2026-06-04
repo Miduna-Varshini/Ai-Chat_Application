@@ -39,25 +39,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.markdown(
-    f"""
-    <div style="
-        background:#1e293b;
-        padding:15px;
-        border-radius:15px;
-        text-align:center;
-        margin-bottom:20px;
-        border:1px solid #334155;">
-        <h2 style="color:#38bdf8;margin:0;">
-            {len(st.session_state.get('messages', []))}
-        </h2>
-        <p style="color:#cbd5e1;margin:0;">
-            Messages in Current Chat
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
 # --------------------------------
 # NEW CHAT BUTTON
 # --------------------------------
